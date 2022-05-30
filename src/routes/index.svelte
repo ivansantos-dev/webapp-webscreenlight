@@ -36,7 +36,7 @@
 </script>
 
 <svelte:head>
-	<title>Web Monitor Light</title>
+	<title>Web Monitor Light | Online Tool</title>
 </svelte:head>
 
 <div class="row mb-3">
