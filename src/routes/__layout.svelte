@@ -1,7 +1,12 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	onMount(() => {
+		document.body.style.backgroundColor = '#ffffff';
+	});
 	const requestFullScreen = () => {
 		// Supports most browsers and their versions.
-		let element = document.documentElement;
+		let element = document.getElementsByClassName('box')[0];
+		element.style.backgroundColor = document.body.style.backgroundColor;
 		var requestMethod =
 			element.requestFullScreen ||
 			element.webkitRequestFullScreen ||
@@ -86,3 +91,12 @@
 		</div>
 	</div>
 </div>
+<div class="box" />
+
+<style>
+	.box {
+		background-color: red;
+		width: 0px;
+		height: 0px;
+	}
+</style>

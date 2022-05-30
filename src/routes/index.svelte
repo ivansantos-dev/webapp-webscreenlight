@@ -1,6 +1,7 @@
 <script lang="ts">
 	let color = '#FFFFFF';
 	let presetColor: string;
+	let fullscreen = false;
 
 	const presetColors = [
 		{
@@ -62,3 +63,14 @@
 
 <label for="color" class="col-sm-2 col-form-label">Color Picker</label>
 <input type="color" name="color" id="color" bind:value={color} on:input={changeBackgroundColor} />
+
+{#if fullscreen}
+	<div class="box" />
+{/if}
+
+<style>
+	.box {
+		background-color: red;
+		height: 100vh;
+	}
+</style>
