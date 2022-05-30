@@ -35,6 +35,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Web Monitor Light</title>
+</svelte:head>
+
 <div class="row mb-3">
 	<div class="col-sm-2">
 		<label for="colorPreset" class="col-form-label">Color Presets</label>
