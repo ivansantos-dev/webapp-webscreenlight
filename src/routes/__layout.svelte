@@ -30,14 +30,19 @@
 	<header
 		class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
 	>
-		<h1>Web Monitor Light</h1>
+		<a href="/" class="text-dark text-decoration-none"><h1>Web Monitor Light</h1></a>
 
 		<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
 			<li class="nav-item">
-				<a href="#" on:click={requestFullScreen} class="nav-link">Go Fullscreen</a>
+				<a href="/" class="nav-link">Home</a>
 			</li>
 			<li class="nav-item">
 				<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nav-link">FAQ</a>
+			</li>
+
+			<li class="nav-item"><a href="/credits" class="nav-link">Credits</a></li>
+			<li class="nav-item">
+				<a href="#" on:click={requestFullScreen} class="nav-link">Go Fullscreen</a>
 			</li>
 		</ul>
 	</header>
@@ -80,13 +85,6 @@
 					<li>black your screen in order to clean it</li>
 					<li>test monitor</li>
 				</ul>
-			</div>
-			<div class="modal-footer">
-				<p>
-					Created by <a href="http://ivan-santos.dev" target="_blank" class="link-unstyled"
-						>Ivan Santos</a
-					>
-				</p>
 			</div>
 		</div>
 	</div>
