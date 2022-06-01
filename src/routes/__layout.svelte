@@ -30,7 +30,7 @@
 	<header
 		class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
 	>
-		<a href="/" class="text-dark text-decoration-none"><h1>Web Monitor Light</h1></a>
+		<a href="/" class="text-dark text-decoration-none"><h1>Online Screen Light</h1></a>
 
 		<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
 			<li class="nav-item">
@@ -76,7 +76,7 @@
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" />
 			</div>
 			<div class="modal-body">
-				<p><strong>Web Monitor Light</strong> is a simple tool to light whatever you need.</p>
+				<p><strong>Online Screen Light</strong> is a simple tool to light whatever you need.</p>
 
 				<p>Use-cases:</p>
 				<ul>

@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Credits - Web Monitor Light | Online Tool</title>
+	<title>Credits - Online Screen Light | Online Tool</title>
 </svelte:head>
 <h1>Credits</h1>
 <p>
