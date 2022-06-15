@@ -28,11 +28,25 @@
 	const selectPresetColor = () => {
 		document.body.style.backgroundColor = presetColor;
 		color = presetColor;
+		document.body.style.color = contrast(color);
+	};
+
+	const contrast = (hexcolor: string) => {
+		hexcolor = hexcolor.slice(1);
+		const r = parseInt(hexcolor.slice(0, 2), 16);
+		const g = parseInt(hexcolor.slice(2, 4), 16);
+		const b = parseInt(hexcolor.slice(4, 6), 16);
+		const yiq = r * 0.299 + g * 0.587 + b * 0.114;
+		console.log(hexcolor, r, g, b, yiq);
+		return yiq > 186 ? 'black' : 'white';
 	};
 
 	const changeBackgroundColor = () => {
 		document.body.style.backgroundColor = color;
+		document.body.style.color = contrast(color);
 	};
+
+	// function to find contrast of hex color
 </script>
 
 <svelte:head>
