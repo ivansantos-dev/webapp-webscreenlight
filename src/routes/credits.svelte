@@ -1,9 +1,9 @@
 <svelte:head>
-	<title>Credits - Online Screen Light | Online Tool</title>
+	<title>Credits - Web Screen Light | Online Tool</title>
 </svelte:head>
 <h1>Credits</h1>
 <p>
-	Online tool was created by <a href="https://ivan-santos.dev" target="_blank">Ivan Santos</a> for fun.
+	Tool was created by <a href="https://ivan-santos.dev" target="_blank">Ivan Santos</a> for fun.
 </p>
 <h3>Tech stack:</h3>
 <ul>
